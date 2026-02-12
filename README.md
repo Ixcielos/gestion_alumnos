@@ -2,6 +2,18 @@
 
 Sistema web desarrollado en PHP para la gestión de alumnos y sus calificaciones, con generación de reportes en Excel y PDF.
 
+## 👥 Integrantes del Grupo
+
+- **Grupo:** 4
+1. **Briggette Floril**
+2. **Abigail Reyes**  
+3. **Felix Narvaéz**  
+4. **Katherine Vargas**  
+5. **Sebastian Sandoval**  
+- **Carrera:** Ingeniería en Tecnologías de la Información y Comunicaciones (TICS)
+- **Ciclo:** 5to Ciclo
+- **Curso:** Aplicación de Tecnologías Web
+
 ## 📋 Características
 
 - ✅ **CRUD Completo de Alumnos**: Crear, leer, actualizar y eliminar alumnos
