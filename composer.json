@@ -1,0 +1,23 @@
+{
+    "name": "gestion-alumnos/sistema",
+    "description": "Sistema de Gestión de Alumnos y Notas con PHP",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "phpoffice/phpspreadsheet": "^1.29",
+        "tecnickcom/tcpdf": "^6.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Models\\": "src/models/",
+            "App\\Controllers\\": "src/controllers/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sistema Gestión Alumnos",
+            "email": "admin@gestion-alumnos.local"
+        }
+    ],
+    "minimum-stability": "stable"
+}
