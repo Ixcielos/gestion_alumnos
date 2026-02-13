@@ -2,7 +2,7 @@
 
 Sistema web desarrollado en PHP para la gestión de alumnos y sus calificaciones, con generación de reportes en Excel y PDF.
 
-## 👥 Integrantes del Grupo
+## Integrantes del Grupo
 
 - **Grupo:** 4
 1. **Briggette Floril**
@@ -14,20 +14,20 @@ Sistema web desarrollado en PHP para la gestión de alumnos y sus calificaciones
 - **Ciclo:** 5to Ciclo
 - **Curso:** Aplicación de Tecnologías Web
 
-## 📋 Características
+## Características
 
-- ✅ **CRUD Completo de Alumnos**: Crear, leer, actualizar y eliminar alumnos
-- ✅ **CRUD Completo de Notas**: Gestión completa de calificaciones (0-10)
-- ✅ **Cálculo Automático de Promedios**: Promedio con 2 decimales
-- ✅ **Calificación Cualitativa**: Suspenso, Bien, Notable, Sobresaliente
-- ✅ **Reportes Excel**: Exportación profesional con PhpSpreadsheet
-- ✅ **Reportes PDF**: Generación de PDF con TCPDF
-- ✅ **Interfaz Moderna**: Bootstrap 5.3.8 con diseño responsive
-- ✅ **Seguridad**: PDO con prepared statements (prevención SQL Injection)
-- ✅ **Arquitectura MVC**: Código organizado y escalable
-- ✅ **Validación en Tiempo Real**: JavaScript para validación instantánea
+- **CRUD Completo de Alumnos**: Crear, leer, actualizar y eliminar alumnos
+- **CRUD Completo de Notas**: Gestión completa de calificaciones (0-10)
+- **Cálculo Automático de Promedios**: Promedio con 2 decimales
+- **Calificación Cualitativa**: Suspenso, Bien, Notable, Sobresaliente
+- **Reportes Excel**: Exportación profesional con PhpSpreadsheet
+- **Reportes PDF**: Generación de PDF con TCPDF
+- **Interfaz Moderna**: Bootstrap 5.3.8 con diseño responsive
+- **Seguridad**: PDO con prepared statements (prevención SQL Injection)
+- **Arquitectura MVC**: Código organizado y escalable
+- **Validación en Tiempo Real**: JavaScript para validación instantánea
 
-## 🎯 Requisitos del Sistema
+## Requisitos del Sistema
 
 ### Requisitos Obligatorios
 - **PHP**: >= 7.4 con extensión `ext-zip` habilitada
@@ -39,7 +39,7 @@ Sistema web desarrollado en PHP para la gestión de alumnos y sus calificaciones
 
 > **Nota**: La aplicación funciona completamente **sin Composer**. Solo necesita Composer si desea generar reportes Excel y PDF.
 
-## 📦 Instalación Rápida
+## Instalación Rápida
 
 ### Paso 1: Verificar XAMPP
 
@@ -75,11 +75,11 @@ Abra su navegador y visite:
 http://localhost/php/gestion_alumnos/public/index.php
 ```
 
-**¡La aplicación ya está funcionando!** 🎉
+**¡La aplicación ya está funcionando!**
 
 ---
 
-## 📦 Instalación de Composer (Opcional - Para Reportes)
+## Instalación de Composer (Opcional - Para Reportes)
 
 Si desea usar la funcionalidad de reportes Excel y PDF, necesita instalar Composer y las dependencias.
 
@@ -135,7 +135,7 @@ Se creará la carpeta `/vendor/` con todas las librerías necesarias.
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 gestion_alumnos/
@@ -170,16 +170,16 @@ gestion_alumnos/
 └── README.md                   # Este archivo
 ```
 
-## 🎨 Escala de Calificación
+## Escala de Calificación
 
 | Rango | Resultado | Badge |
 |-------|-----------|-------|
-| 0 - 4.99 | Suspenso | 🔴 Rojo |
-| 5 - 6.99 | Bien | 🔵 Azul |
-| 7 - 8.99 | Notable | 🟣 Morado |
-| 9 - 10 | Sobresaliente | 🟢 Verde |
+| 0 - 4.99 | Suspenso | Rojo |
+| 5 - 6.99 | Bien | Azul |
+| 7 - 8.99 | Notable | Morado |
+| 9 - 10 | Sobresaliente | Verde |
 
-## 📊 Uso del Sistema
+## Uso del Sistema
 
 ### Dashboard (Página Principal)
 
@@ -197,12 +197,12 @@ El dashboard muestra:
    - Click en "Guardar"
 
 2. **Editar Alumno**: 
-   - En la tabla de alumnos, click en el botón de editar (✏️ lápiz)
+   - En la tabla de alumnos, click en el botón de editar (lápiz)
    - Modificar los datos necesarios
    - Click en "Guardar"
 
 3. **Eliminar Alumno**: 
-   - Click en el botón de eliminar (🗑️ papelera)
+   - Click en el botón de eliminar (papelera)
    - Confirmar la eliminación
    - **Nota**: Se eliminarán también todas las notas asociadas
 
@@ -220,12 +220,12 @@ El dashboard muestra:
    - Muestra el promedio y resultado cualitativo
 
 3. **Editar Nota**: 
-   - En la tarjeta del alumno, click en el botón de editar (✏️) de la nota específica
+   - En la tarjeta del alumno, click en el botón de editar la nota específica
    - Modificar el valor
    - Click en "Guardar"
 
 4. **Eliminar Nota**: 
-   - Click en el botón de eliminar (🗑️) de la nota específica
+   - Click en el botón de eliminar de la nota específica
    - Confirmar la eliminación
 
 ### Generar Reportes
@@ -249,17 +249,17 @@ El dashboard muestra:
 - Resultados cualitativos con colores
 - Fecha de generación
 
-## 🔒 Seguridad
+## Seguridad
 
-- ✅ **PDO con Prepared Statements**: Prevención de SQL Injection
-- ✅ **Validación de Datos**: Validación en servidor (PHP) y cliente (JavaScript)
-- ✅ **Sanitización de Salida**: `htmlspecialchars()` en todas las salidas
-- ✅ **Validación de Email**: `filter_var()` con `FILTER_VALIDATE_EMAIL`
-- ✅ **Validación de Rangos**: Notas entre 0 y 10
-- ✅ **Validación en Tiempo Real**: JavaScript previene errores antes de enviar
-- ✅ **Confirmación de Eliminación**: Diálogos de confirmación para acciones destructivas
+- **PDO con Prepared Statements**: Prevención de SQL Injection
+- **Validación de Datos**: Validación en servidor (PHP) y cliente (JavaScript)
+- **Sanitización de Salida**: `htmlspecialchars()` en todas las salidas
+- **Validación de Email**: `filter_var()` con `FILTER_VALIDATE_EMAIL`
+- **Validación de Rangos**: Notas entre 0 y 10
+- **Validación en Tiempo Real**: JavaScript previene errores antes de enviar
+- **Confirmación de Eliminación**: Diálogos de confirmación para acciones destructivas
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Backend**: PHP 7.4+
 - **Base de Datos**: MySQL con PDO
@@ -270,7 +270,7 @@ El dashboard muestra:
 - **PDF**: TCPDF ^6.6
 - **Arquitectura**: MVC Ligero
 
-## 🐛 Solución de Problemas
+## Solución de Problemas
 
 ### Error: "PhpSpreadsheet no está instalado"
 
@@ -354,24 +354,24 @@ Presione `Ctrl + F5` para forzar la recarga y limpiar el caché del navegador.
 5. Click en "Aceptar" en todas las ventanas
 6. **Reinicie PowerShell**
 
-## ✅ Funcionalidades Disponibles
+## Funcionalidades Disponibles
 
 ### Sin Composer (Funcionalidades Básicas)
-- ✅ Dashboard con estadísticas
-- ✅ Ver, crear, editar y eliminar alumnos
-- ✅ Ver, crear, editar y eliminar notas
-- ✅ Cálculo automático de promedios
-- ✅ Resultados cualitativos con colores
-- ✅ Validación en tiempo real
-- ❌ Reportes Excel
-- ❌ Reportes PDF
+- Dashboard con estadísticas
+- Ver, crear, editar y eliminar alumnos
+- Ver, crear, editar y eliminar notas
+- Cálculo automático de promedios
+- Resultados cualitativos con colores
+- Validación en tiempo real
+- Reportes Excel
+- Reportes PDF
 
 ### Con Composer (Funcionalidades Completas)
-- ✅ Todas las funcionalidades básicas
-- ✅ Reportes Excel profesionales
-- ✅ Reportes PDF profesionales
+- Todas las funcionalidades básicas
+- Reportes Excel profesionales
+- Reportes PDF profesionales
 
-## 📝 Configuración Avanzada
+## Configuración Avanzada
 
 ### Cambiar Credenciales de Base de Datos
 
@@ -404,16 +404,16 @@ define('MSG_NOTA_CREADA', 'Nota registrada exitosamente.');
 // ... otros mensajes
 ```
 
-## 📞 Resumen de Instalación
+## Resumen de Instalación
 
-1. ✅ **Instalar XAMPP** y activar Apache + MySQL
-2. ✅ **Importar** `gestion_alumnos.sql` en phpMyAdmin
-3. ✅ **Habilitar** extensión ZIP en `php.ini`
-4. ✅ **Reiniciar** Apache en XAMPP
-5. ✅ **Acceder** a `http://localhost/php/gestion_alumnos/public/index.php`
-6. ⚠️ **Opcional**: Instalar Composer y ejecutar `composer install` para reportes
+1. **Instalar XAMPP** y activar Apache + MySQL
+2. **Importar** `gestion_alumnos.sql` en phpMyAdmin
+3. **Habilitar** extensión ZIP en `php.ini`
+4. **Reiniciar** Apache en XAMPP
+5. **Acceder** a `http://localhost/php/gestion_alumnos/public/index.php`
+6. **Opcional**: Instalar Composer y ejecutar `composer install` para reportes
 
-## 👨‍💻 Desarrollo
+## Desarrollo
 
 ### Notas Técnicas
 - El sistema usa sesiones PHP para mensajes flash
@@ -429,7 +429,7 @@ define('MSG_NOTA_CREADA', 'Nota registrada exitosamente.');
 - Gráficos de rendimiento
 - API REST para integración con otras aplicaciones
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto es de código abierto y está disponible para uso educativo.
 
