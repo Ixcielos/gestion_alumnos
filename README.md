@@ -11,7 +11,7 @@ Sistema web desarrollado en PHP para la gestión de alumnos y sus calificaciones
 4. **Katherine Vargas**  
 5. **Sebastian Sandoval**  
 - **Carrera:** Ingeniería en Tecnologías de la Información y Comunicaciones (TICS)
-- **Ciclo:** 5to Ciclo
+- **Semestre:** 5to
 - **Curso:** Aplicación de Tecnologías Web
 
 ## Características
